@@ -247,8 +247,7 @@
         "dueDate": "6/01/2022"
       }
     ]
-  }
-  ,
+  },
   "todos": [
     {
       "id": 1,
@@ -363,7 +362,8 @@
       "name": "Brandon Carders",
       "imageUrl": "https://i.ibb.co/55z32tw/long-sleeve.png"
     }
-  ],"priority": [
+  ],
+  "priority": [
     { "weight": 1, "id": 1, "code": "high", "name": "High" },
     { "weight": 3, "id": 2, "code": "low", "name": "Low" },
     { "weight": 2, "id": 3, "code": "medium", "name": "Medium" }
