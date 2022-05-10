@@ -1,4 +1,123 @@
-{
+{"todos": [
+  {
+    "id": 1,
+    "todo": "Sed enim non nunc urna, cras mattis integer nunc lorem netus ut",
+    "assignedUser": {
+      "id": 1,
+      "name": "Abram Vetrovs",
+      "imageUrl": "https://i.ibb.co/GCCdy8t/womens.png"
+    },
+    "createdUser": {
+      "id": 2,
+      "name": "Martin Stanton",
+      "imageUrl": "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png"
+    },
+    "priority": { "weight": 1, "id": 1, "code": "high", "name": "High" },
+    "dueDate": "1/01/2022"
+  },
+  {
+    "id": 2,
+    "todo": "Pharetra tortor pellentesque sagittis fames convallis at",
+    "assignedUser": {
+      "id": 1,
+      "name": "Abram Vetrovs",
+      "imageUrl": "https://i.ibb.co/GCCdy8t/womens.png"
+    },
+    "createdUser": {
+      "id": 2,
+      "name": "Martin Stanton",
+      "imageUrl": "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png"
+    },
+    "priority": { "weight": 3, "id": 3, "code": "low", "name": "Low" },
+    "dueDate": "2/01/2022"
+  },
+  {
+    "id": 3,
+    "todo": "Ultrices egestas libero, amet, tristique est maecenas donec in consectetur consectetur hac feugiat consectetur arcu, nec, elementum",
+    "assignedUser": {
+      "id": 1,
+      "name": "Abram Vetrovs",
+      "imageUrl": "https://i.ibb.co/GCCdy8t/womens.png"
+    },
+    "createdUser": {
+      "id": 2,
+      "name": "Martin Stanton",
+      "imageUrl": "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png"
+    },
+    "priority": { "weight": 2, "id": 2, "code": "medium", "name": "Medium" },
+    "dueDate": "3/01/2022"
+  },
+  {
+    "id": 4,
+    "todo": "Contribute code or a monetary donation to an open-source software project",
+    "assignedUser": {
+      "id": 2,
+      "name": "Martin Stanton",
+      "imageUrl": "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png"
+    },
+    "createdUser": {
+      "id": 2,
+      "name": "Martin Stanton",
+      "imageUrl": "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png"
+    },
+    "priority": { "weight": 2, "id": 2, "code": "medium", "name": "Medium" },
+    "dueDate": "4/01/2022"
+  },
+  {
+    "id": 5,
+    "todo": "Solve a Rubik's cube",
+    "assignedUser": {
+      "id": 3,
+      "name": "Brandon Carders",
+      "imageUrl": "https://i.ibb.co/55z32tw/long-sleeve.png"
+    },
+    "createdUser": {
+      "id": 2,
+      "name": "Martin Stanton",
+      "imageUrl": "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png"
+    },
+    "priority": { "weight": 3, "id": 3, "code": "low", "name": "Low" },
+    "dueDate": "5/01/2022"
+  },
+  {
+    "id": 6,
+    "todo": "Bake pastries for me and neighbor",
+    "assignedUser": {
+      "id": 1,
+      "name": "Abram Vetrovs",
+      "imageUrl": "https://i.ibb.co/GCCdy8t/womens.png"
+    },
+    "createdUser": {
+      "id": 3,
+      "name": "Brandon Carders",
+      "imageUrl": "https://i.ibb.co/55z32tw/long-sleeve.png"
+    },
+    "priority": { "weight": 1, "id": 1, "code": "high", "name": "High" },
+    "dueDate": "6/01/2022"
+  }
+],
+"users": [
+  {
+    "id": 1,
+    "name": "Abram Vetrovs",
+    "imageUrl": "https://i.ibb.co/GCCdy8t/womens.png"
+  },
+  {
+    "id": 2,
+    "name": "Martin Stanton",
+    "imageUrl": "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png"
+  },
+  {
+    "id": 3,
+    "name": "Brandon Carders",
+    "imageUrl": "https://i.ibb.co/55z32tw/long-sleeve.png"
+  }
+],
+"priority": [
+  { "weight": 1, "id": 1, "code": "high", "name": "High" },
+  { "weight": 3, "id": 2, "code": "low", "name": "Low" },
+  { "weight": 2, "id": 3, "code": "medium", "name": "Medium" }
+]
   "dashboard": {
     "todos": [
       {
@@ -248,138 +367,5 @@
       }
     ]
   },
-  "todos": [
-    {
-      "id": 1,
-      "todo": "Sed enim non nunc urna, cras mattis integer nunc lorem netus ut",
-      "assignedUser": {
-        "id": 1,
-        "name": "Abram Vetrovs",
-        "imageUrl": "https://i.ibb.co/GCCdy8t/womens.png"
-      },
-      "createdUser": {
-        "id": 2,
-        "name": "Martin Stanton",
-        "imageUrl": "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png"
-      },
-      "priority": { "weight": 1, "id": 1, "code": "high", "name": "High" },
-      "dueDate": "1/01/2022"
-    },
-    {
-      "id": 2,
-      "todo": "Pharetra tortor pellentesque sagittis fames convallis at",
-      "assignedUser": {
-        "id": 1,
-        "name": "Abram Vetrovs",
-        "imageUrl": "https://i.ibb.co/GCCdy8t/womens.png"
-      },
-      "createdUser": {
-        "id": 2,
-        "name": "Martin Stanton",
-        "imageUrl": "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png"
-      },
-      "priority": { "weight": 3, "id": 3, "code": "low", "name": "Low" },
-      "dueDate": "2/01/2022"
-    },
-    {
-      "id": 3,
-      "todo": "Ultrices egestas libero, amet, tristique est maecenas donec in consectetur consectetur hac feugiat consectetur arcu, nec, elementum",
-      "assignedUser": {
-        "id": 1,
-        "name": "Abram Vetrovs",
-        "imageUrl": "https://i.ibb.co/GCCdy8t/womens.png"
-      },
-      "createdUser": {
-        "id": 2,
-        "name": "Martin Stanton",
-        "imageUrl": "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png"
-      },
-      "priority": { "weight": 2, "id": 2, "code": "medium", "name": "Medium" },
-      "dueDate": "3/01/2022"
-    },
-    {
-      "id": 4,
-      "todo": "Contribute code or a monetary donation to an open-source software project",
-      "assignedUser": {
-        "id": 2,
-        "name": "Martin Stanton",
-        "imageUrl": "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png"
-      },
-      "createdUser": {
-        "id": 2,
-        "name": "Martin Stanton",
-        "imageUrl": "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png"
-      },
-      "priority": { "weight": 2, "id": 2, "code": "medium", "name": "Medium" },
-      "dueDate": "4/01/2022"
-    },
-    {
-      "id": 5,
-      "todo": "Solve a Rubik's cube",
-      "assignedUser": {
-        "id": 3,
-        "name": "Brandon Carders",
-        "imageUrl": "https://i.ibb.co/55z32tw/long-sleeve.png"
-      },
-      "createdUser": {
-        "id": 2,
-        "name": "Martin Stanton",
-        "imageUrl": "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png"
-      },
-      "priority": { "weight": 3, "id": 3, "code": "low", "name": "Low" },
-      "dueDate": "5/01/2022"
-    },
-    {
-      "id": 6,
-      "todo": "Bake pastries for me and neighbor",
-      "assignedUser": {
-        "id": 1,
-        "name": "Abram Vetrovs",
-        "imageUrl": "https://i.ibb.co/GCCdy8t/womens.png"
-      },
-      "createdUser": {
-        "id": 3,
-        "name": "Brandon Carders",
-        "imageUrl": "https://i.ibb.co/55z32tw/long-sleeve.png"
-      },
-      "priority": { "weight": 1, "id": 1, "code": "high", "name": "High" },
-      "dueDate": "6/01/2022"
-    }
-  ],
-  "users": [
-    {
-      "id": 1,
-      "name": "Abram Vetrovs",
-      "imageUrl": "https://i.ibb.co/GCCdy8t/womens.png"
-    },
-    {
-      "id": 2,
-      "name": "Martin Stanton",
-      "imageUrl": "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png"
-    },
-    {
-      "id": 3,
-      "name": "Brandon Carders",
-      "imageUrl": "https://i.ibb.co/55z32tw/long-sleeve.png"
-    }
-  ],
-  "filters": [
-    {
-      "id": 1,
-      "code": "createdUserId"
-    },
-    {
-      "id": 2,
-      "code": "priority"
-    },
-    {
-      "id": 3,
-      "code": "dueDate"
-    }
-  ],
-  "priority": [
-    { "weight": 1, "id": 1, "code": "high", "name": "High" },
-    { "weight": 3, "id": 2, "code": "low", "name": "Low" },
-    { "weight": 2, "id": 3, "code": "medium", "name": "Medium" }
-  ]
+  
 }
