@@ -363,6 +363,20 @@
       "imageUrl": "https://i.ibb.co/55z32tw/long-sleeve.png"
     }
   ],
+  "filters": [
+    {
+      "id": 1,
+      "code": "createdUserId"
+    },
+    {
+      "id": 2,
+      "code": "priority"
+    },
+    {
+      "id": 3,
+      "code": "dueDate"
+    }
+  ],
   "priority": [
     { "weight": 1, "id": 1, "code": "high", "name": "High" },
     { "weight": 3, "id": 2, "code": "low", "name": "Low" },
