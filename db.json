@@ -132,6 +132,22 @@
       },
       "priority": { "weight": 2, "id": 2, "code": "medium", "name": "Medium" },
       "dueDate": "3/01/2022"
+    },
+    {
+      "id": 4,
+      "todo": "Contribute code or a monetary donation to an open-source software project",
+      "assignedUser": {
+        "id": 2,
+        "name": "Martin Stanton",
+        "imageUrl": "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png"
+      },
+      "createdUser": {
+        "id": 2,
+        "name": "Martin Stanton",
+        "imageUrl": "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png"
+      },
+      "priority": { "weight": 2, "id": 2, "code": "medium", "name": "Medium" },
+      "dueDate": "4/01/2022"
     }
   ],
   "users": [
