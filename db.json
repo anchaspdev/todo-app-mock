@@ -46,6 +46,7 @@
       }
     ],
     "priorityBasedToDos": [
+    
       {
         "id": 2,
         "todo": "Pharetra tortor pellentesque sagittis fames convallis at",
@@ -64,6 +65,7 @@
       }
     ],
     "assignedToUserTodos": [
+    
       {
         "id": 6,
         "todo": "Bake pastries for me and neighbor",
@@ -81,5 +83,45 @@
         "dueDate": "6/01/2022"
       }
     ]
-  }
+  },
+  "todos": [
+    {
+      "id": 1,
+      "todo": "Sed enim non nunc urna, cras mattis integer nunc lorem netus ut",
+      "assignedUser": {
+        "id": 1,
+        "name": "Abram Vetrovs",
+        "imageUrl": "https://i.ibb.co/GCCdy8t/womens.png"
+      },
+      "createdUser": {
+        "id": 2,
+        "name": "Martin Stanton",
+        "imageUrl": "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png"
+      },
+      "priority": { "weight": 1, "id": 1, "code": "high", "name": "High" },
+      "dueDate": "1/01/2022"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Abram Vetrovs",
+      "imageUrl": "https://i.ibb.co/GCCdy8t/womens.png"
+    },
+    {
+      "id": 2,
+      "name": "Martin Stanton",
+      "imageUrl": "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png"
+    },
+    {
+      "id": 3,
+      "name": "Brandon Carders",
+      "imageUrl": "https://i.ibb.co/55z32tw/long-sleeve.png"
+    }
+  ],
+  "priority": [
+    { "weight": 1, "id": 1, "code": "high", "name": "High" },
+    { "weight": 3, "id": 2, "code": "low", "name": "Low" },
+    { "weight": 2, "id": 3, "code": "medium", "name": "Medium" }
+  ]
 }
